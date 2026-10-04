@@ -1,0 +1,26 @@
+{
+  "best_model": "Random Forest",
+  "best_params": {
+    "Logistic Regression": {
+      "C": 1
+    },
+    "Decision Tree": {
+      "max_depth": 7,
+      "min_samples_leaf": 20
+    },
+    "Random Forest": {
+      "max_depth": 8,
+      "min_samples_leaf": 1,
+      "n_estimators": 300
+    },
+    "Gradient Boosting": {
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "n_estimators": 50
+    },
+    "SVM": {
+      "C": 0.5,
+      "kernel": "rbf"
+    }
+  }
+}
